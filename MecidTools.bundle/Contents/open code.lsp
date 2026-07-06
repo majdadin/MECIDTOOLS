@@ -1,4 +1,5 @@
-;;; ==========================================================================
+Command: GEN-SECTION
+--> Environment settings successfully restored. ;;; ==========================================================================
 ;;; MASTER ARCHITECTURAL PRODUCTION & TOOL SUITE (OPEN SOURCE EDITION)
 ;;; Features: Architectural Section Generator & English Level Placement Engine
 ;;; ==========================================================================
@@ -182,7 +183,7 @@
     (progn
       (setq acad-object (vlax-get-acad-object)
             acad-doc (vla-get-activedocument acad-object)
-            ms (vla-get-ModelSpace acad-object)) ; Fixed Casing
+            ms (vla-get-ModelSpace acad-doc)) ; FIXED: Pointed to acad-doc instead of acad-object
       
       (princ "\n--> Define the orientation plane of your Section Line.")
       (setq ref-pt (getpoint "\nPick START Point of Section Cut Line: "))
@@ -345,7 +346,7 @@
 
   (setq acad-obj (vlax-get-acad-object)
         doc (vla-get-activedocument acad-obj)
-        ms (vla-get-ModelSpace doc)) ; Fixed Casing
+        ms (vla-get-ModelSpace doc)) ; Enforced casing for cross-compatibility
 
   ;;; ============================================================
   ;;; VERIFICATION ENGINE FOR INTERNAL DRAWING BLOCK
