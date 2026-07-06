@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2026 MecidTools
+  Licensed under the MIT License. See "MIT License.txt" in the project root for full terms.
+-->
+<ApplicationPackage SchemaVersion="1.0" AppVersion="1.0.0" Name="Core Architecture Section Tools" Description="Automated sections and architectural drafting utilities" ProductCode="OpenSource-ArchitectureSectionTools-v1">
+  
+  <CompanyDetails Name="Open Source Developer Community" Email="support@example.com" />
+
+  <!-- This sets up the broad requirements for AutoCAD -->
+  <Components>
+    <RuntimeRequirements OS="Win64" SeriesMin="R20.0" SeriesMax="R26.0" Platform="AutoCAD*" />
+    
+    <!-- This maps and executes your open source LISP script on startup -->
+    <ComponentEntry 
+      AppName="CoreArchitectureAutomation" 
+      ModuleName="./Contents/open code.lsp" 
+      LoadOnAutoCADStartup="True" />
+  </Components>
+
+</ApplicationPackage>
