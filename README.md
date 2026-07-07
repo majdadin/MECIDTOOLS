@@ -3,7 +3,7 @@
 [![AutoCAD Extension](https://img.shields.io/badge/AutoCAD-Plugin-blue.svg)](https://www.autodesk.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**MecidTools** is an open-source, lightweight 2D drafting automation suite built specifically for **AutoCAD**. Engineered to streamline native architectural documentation workflows, it accelerates cross-section generation and height measurement layouts directly from 2D plane references without binding you to rigid parametric 3D objects.
+**MecidTools** is an open-source, lightweight 2D drafting automation suite built specifically for **AutoCAD**. Engineered to streamline native architectural documentation workflows, it accelerates cross-section generation and height measurement layouts directly from 2D plane references without binding you to rigid parametric 3D objects. https://youtu.be/vXTbqRYxO_I
 
 ---
 
