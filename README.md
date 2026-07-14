@@ -51,7 +51,7 @@ If the installer is blocked by security or network policies, the suite can be in
 2. Input the local roaming path sequence below and hit Enter:
    ```text
    %APPDATA%\Autodesk\ApplicationPlugins
-3. Paste "MecidTools.bundle" folder
+3. Paste "MecidTools.bundle" file in there
 
 
 ## Enjoy your times..... 
