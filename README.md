@@ -5,6 +5,9 @@
 
 **MecidTools** is an open-source, lightweight 2D drafting automation suite built specifically for **AutoCAD**. Engineered to streamline native architectural documentation workflows, it accelerates cross-section generation and height measurement layouts directly from 2D plane references without binding you to rigid parametric 3D objects. https://youtu.be/vXTbqRYxO_I
 
+### 📺 Watch the Demo Video
+[![Watch the video](https://img.youtube.com/vi/vXTbqRYxO_I/maxresdefault.jpg)](https://www.youtube.com/watch?v=vXTbqRYxO_I)
+
 ---
 
 ## 🚀 Core Automation Features
@@ -36,7 +39,10 @@ The `ADD-LEVELS` routine provides an agile height-tracking ecosystem utilizing a
 ## 🛠️ Installation & Setup
 
 ### Method 1: Automated Installation (Recommended)
-Simply run the provided compiled Windows Installer (`MecidTools.msi`) package. It will automatically deploy the assets and bypasses administrator permission prompts by installing locally to your user profile.
+Simply run the provided compiled Windows Installer (`MecidTools.msi`) package. It will automatically deploy the assets and bypasses administrator permission prompts by installing locally to your user profile. 
+
+### for uninstalling the tool. It is simply done.... Go to.... installed apps => Mecidtools Architectural Suite => 3 DOTS AND UNINSTALL 
+
 
 ### Method 2: Manual Non-Admin Deployment
 If the installer is blocked by security or network policies, the suite can be installed instantly via a direct copy-paste sequence:
@@ -45,3 +51,7 @@ If the installer is blocked by security or network policies, the suite can be in
 2. Input the local roaming path sequence below and hit Enter:
    ```text
    %APPDATA%\Autodesk\ApplicationPlugins
+3. Paste "MecidTools.bundle" folder
+
+
+## Enjoy your times..... 
